@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+   background-image: url(wp3906260.jpg);
+   min-height: 100vh;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-repeat: no-repeat;
+}
+#board{
+    background-image: linear-gradient(green,rgb(162, 162, 12));
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(18,1fr);
+}
+
+.head{
+    background-color: red;
+}
+.snake{
+    background-color: purple;
+}
+.food{
+    background-color: yellow;
+}
